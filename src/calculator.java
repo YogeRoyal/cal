@@ -48,6 +48,8 @@ public class calculator {
          {
         System.out.println("Error: Invalid operator");
         // Exit the program
+             // java system exit() method takes status code as an argument if status(-1)
+             //then it  indicates unsuccessful termination
         System.exit(1);
     }
 
